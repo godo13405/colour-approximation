@@ -1,11 +1,12 @@
 'use strict';
 
-import colourNames from "./colours.js";
+import colors from "./color-list.js";
 import ntc from "./ntc.js";
 
-colourNames.forEach(x => {
-    let elem = document.createElement("div");
-    elem.style = `background-color:#${x[0]}`;
+colors.forEach(x => {
+    let elem = document.createElement("a");
+    elem.style = `background-color:#${x}`;
+    elem.href = `?q=${x}`;
     elem.classList = 'sample';
     document.querySelector('.colours-container').appendChild(elem);
 });
@@ -16,7 +17,7 @@ q = decodeURI(q.get('q'));
 if (q && q.length && q !== 'null') {
     ntc.init();
     const cat = ntc.name(q);
-    document.querySelector('.colour').setAttribute('style',`border-color:${cat[0]}`);
+    document.querySelector('.colour').setAttribute('style', `border-color:${cat[0]} ${cat[0]} #${q} #${q}`);
     document.querySelector('.hex').innerHTML = cat[0];
     document.querySelector('.category').innerHTML = cat[1];
 }
