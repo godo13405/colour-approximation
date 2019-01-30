@@ -1,0 +1,23 @@
+.colours-container {
+    .sample {
+        $size: 1.6rem;
+        display: inline-block;
+        width: $size;
+        height: $size;
+    }
+}
+.colour {
+    $width: 12rem;
+    $height: 4rem;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    margin-top: - $height / 2;
+    margin-left: - $width / 2;
+    background-color: rgba(#fff, .8);
+    height: $height;
+    line-height: $height;
+    width: $width;
+    text-align: center;
+    border: 1rem solid transparent;
+}

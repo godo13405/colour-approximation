@@ -1,0 +1,19 @@
+{
+  "name": "colour-approximation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godo13405/colour-approximation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godo13405/colour-approximation/issues"
+  },
+  "homepage": "https://github.com/godo13405/colour-approximation#readme"
+}
