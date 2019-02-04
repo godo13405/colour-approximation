@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/godo13405/colour-approximation/issues"
   },
-  "homepage": "https://github.com/godo13405/colour-approximation#readme"
+  "homepage": "https://github.com/godo13405/colour-approximation#readme",
+  "dependencies": {}
 }
